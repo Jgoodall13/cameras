@@ -1,0 +1,73 @@
+/************* HEADER ******************/
+
+.headers-div{
+    box-shadow: 5px 5px 20px #888888;
+}
+
+.header-nav{
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links{
+    color: gray;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.nav-links:hover{
+    color: lightgray;
+    text-decoration: none;
+}
+
+.contact-button{
+    font-size: 30px;
+    background-color: #150DD6;
+    border: 1px solid #150DD6;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 236px;
+    font-weight: 300;
+}
+
+.contact-button:hover{
+    background-color: white;
+    color: #150DD6;
+    text-decoration: none;
+}
+
+
+
+/************* FOOTER ******************/
+
+.footer{
+    background-color: gray;
+    padding-top: 50px;
+}
+
+.footer-heading{
+    color: white;
+    font-size: 20px;
+}
+
+.footer-nav-links{
+    color: white;
+    font-weight: 300;
+    line-height: 2;
+}
+
+.legals{
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    margin-left: -50px;
+}
+
+.legal-space{
+    margin: 0 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+}

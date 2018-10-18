@@ -1,12 +1,11 @@
 import React from 'react';
-import Carousel from './Carousel'
 
 
 const index = () => {
     topFunction();
     return (
         <div>
-            <Carousel />
+            Yeti
         </div>
     )
 }

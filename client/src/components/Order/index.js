@@ -5,7 +5,7 @@ const index = () => {
     topFunction();
     return (
         <div>
-            Order Now
+            Order
         </div>
     )
 }

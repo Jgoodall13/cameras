@@ -2,6 +2,10 @@ import React from 'react'
 import { Switch, Route } from 'react-router-dom'
 import Home from '../Home';
 import Products from '../Products'
+import Hydra from '../Products/Hydra/index'
+import Monstar from '../Products/Monstar/index'
+import Yeti from '../Products/Yeti/index'
+import Maxx from '../Products/Maxx/index'
 import About from '../About'
 import Faqs from '../Faqs'
 import Order from '../Order'
@@ -11,6 +15,10 @@ import Error from './Error'
 const Main = () => (
   <main>
     <Switch>
+      <Route path='/products/hydra' component={Hydra} />
+      <Route path='/products/monstar' component={Monstar} />
+      <Route path='/products/yeti' component={Yeti} />
+      <Route path='/products/maxx' component={Maxx} />
       <Route path='/products' component={Products} />
       <Route path='/about' component={About} />
       <Route path='/faqs' component={Faqs} />
