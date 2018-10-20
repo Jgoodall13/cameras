@@ -1,5 +1,8 @@
 import React from 'react';
-import Carousel from './Carousel'
+import Carousel from './Carousel';
+import SenseBox from './SenseBox';
+import Specs from './Sepcs'
+
 
 
 const index = () => {
@@ -7,6 +10,8 @@ const index = () => {
     return (
         <div>
             <Carousel />
+            <SenseBox />
+            <Specs />
         </div>
     )
 }

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import Dropdown from './Dropdown'
 
 import Logo from '../../images/logo.png'
 
@@ -19,10 +20,10 @@ class Header extends Component{
                         </div>
                         <div className="col-md-9">
                             <nav className='header-nav'>
-                                <Link id="product-drop" className="nav-links" to="/products">PRODUCTS</Link>
-                                <Link className="nav-links" to="/about">ABOUT</Link>
-                                <Link className="nav-links" to="/faqs">FAQS</Link>
-                                <Link className="contact-button" to="/order">ORDER NOW</Link>
+                                <span id="product-drop" className="nav-links"><Dropdown /></span>
+                                <Link className="nav-links" to="/about">About</Link>
+                                <Link className="nav-links" to="/faqs">FAQ</Link>
+                                <Link className="contact-button" to="/order">Order Now</Link>
                             </nav>
                         </div>
                     </div>

@@ -1,0 +1,60 @@
+.maxx-hero{
+    padding-top: 130px;
+}
+
+.maxx-banner{
+    text-align: center;
+    margin-bottom: 75px
+}
+
+.maxx-cta {
+    color: gray;
+    font-weight: 300;
+    font-size: 20px;
+    margin: 20px 5%;
+}
+
+.maxx-img{
+    height: 400px;
+    width: auto;
+}
+
+.maxx-data-div{
+    text-align: right;
+}
+
+.donwload-button {
+    margin: 50px;
+    border: 2px solid gray;
+    padding: 10px 25px;
+    border-radius: 50px;
+    color: gray;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.donwload-button:hover{
+    text-decoration: none;
+    background: gray;
+    color: white;
+}
+
+/************ SPECS ***************/
+
+.maxx-specs{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-top: 2px solid gray;
+    padding-top: 50px;
+}
+
+.spec-list{
+    color: gray;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.cta-div{
+    text-align: center;
+    margin-top: 100px;
+}
