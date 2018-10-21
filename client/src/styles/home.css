@@ -3,6 +3,13 @@
     padding-top: 100px;
 }
 
+.carousel-indicators li{
+    border: 1px solid #696969
+}
+
+.carousel-indicators .active{
+    background: #696969;
+}
 
 /******** SENSE ***********/
 

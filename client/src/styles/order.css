@@ -1,0 +1,81 @@
+.form-div{
+    margin-left: 22%;
+    margin-bottom: 100px;
+}
+
+.contact-title-div{
+    text-align: center;
+    padding-top: 130px;
+}
+
+.contact-title{
+    color: #696969;
+    font-size: 55px;
+    font-weight: 300;
+}
+
+.contact-inputs-box{
+    margin: 10px 0
+}
+
+.contact-inputs{
+    width: 100%;
+    background-color: #eeeeee;
+    border: none;
+    padding: 15px 0 15px 10px;
+}
+
+.text-area-contact{
+    height: 175px
+}
+
+.contact-button-send {
+    color: white;
+    font-size: 18px;
+    padding: 11px 30px;
+    background-color: #150DD6;
+    border-radius: 7px;
+    border: 1px solid #150DD6;
+}
+
+.contact-button-send:hover{
+    background-color: white;
+    color: #150dd6;
+    text-decoration: none;
+}
+
+.confirm-title{
+    color: #150dd6;
+    font-family: Proxima-bold;
+    font-size: 40px;
+}
+
+.confirm-p{
+    font-size: 17px;
+    color: gray;
+}
+
+.confirm-box{
+    text-align: center;
+    margin: 5% 23%
+}
+
+.contact-form-div{
+    margin-top: 60px;
+    margin-bottom: 60px
+}
+
+@media(max-width:991px){
+    .contact-button-send{
+        width: 100%
+    }
+    .contact-fun{
+        font-size: 40px;
+    }
+    .contact-form-div{
+        margin-bottom: 10px
+    }
+    .contact-form{
+        margin-top: 40px;
+    } 
+}

@@ -1,11 +1,13 @@
 import React from 'react';
-
+import Title from './Title.js'
+import Form from './Form'
 
 const index = () => {
     topFunction();
     return (
         <div>
-            Order
+            <Title />
+            <Form />
         </div>
     )
 }

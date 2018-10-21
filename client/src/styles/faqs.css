@@ -1,0 +1,17 @@
+
+.faq-hero{
+    background-image: url('../images/faq-hero.jpg');
+    height: 500px;
+    background-size: cover;
+    padding-top: 100px;
+}
+
+.faq-title-div{
+    text-align: center;
+}
+
+.faq-title{
+    color: #696969;
+    font-size: 55px;
+    font-weight: 300;
+}

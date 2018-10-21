@@ -1,5 +1,7 @@
 import React from 'react';
 import Hero from '../../images/hero_placeholder.png'
+import HeroOne from '../../images/Main_Hero_1.jpg';
+import HeroTwo from '../../images/Main_Hero_2.jpg'
 
 const Carousel = () => {
     return (
@@ -13,19 +15,15 @@ const Carousel = () => {
                 </ol>
                 <div className="carousel-inner">
                 <div className="item active">
-                    Hero one
-                    <img src={Hero} alt="hero-one" />
+                    <img src={HeroOne} alt="hero-one" />
                 </div>
                 <div className="item">
-                    Hero two
-                    <img src={Hero} alt="hero-one" />
+                    <img src={HeroTwo} alt="hero-one" />
                 </div>                
                 <div className="item">
-                    Hero three
                     <img src={Hero} alt="hero-one" />
                 </div>
                 <div className="item">
-                    Hero four
                     <img src={Hero} alt="hero-one" />
                 </div>
                 </div>

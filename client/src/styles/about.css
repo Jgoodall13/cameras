@@ -1,0 +1,21 @@
+
+.about-banner{
+    background-image: url('../images/about-hero.jpg');
+    height: 600px;
+    background-size: cover;
+}
+
+.about-info{
+    text-align: center;
+}
+
+.about-title{
+    color: #696969;
+    font-size: 55px;
+    font-weight: 300;
+}
+
+.about-paragraph{
+    font-size: 18px;
+    color: gray;
+}

@@ -1,11 +1,11 @@
 import React from 'react';
-
+import Hero from './Hero'
 
 const index = () => {
     topFunction();
     return (
         <div>
-            About
+            <Hero />
         </div>
     )
 }
