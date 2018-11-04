@@ -13,7 +13,6 @@ class Footer extends Component {
                             <h4 className="footer-heading">PRODUCTS</h4>
                             <Link className="footer-nav-links" to="/products/hydra">Hydra</Link><br />
                             <Link className="footer-nav-links" to="/products/Monstar">Monstar</Link><br />
-                            <Link className="footer-nav-links" to="/products/Yeti">Yeti</Link><br />
                             <Link className="footer-nav-links" to="/products/Maxx">Maxx</Link>
                         </div>
                         <div className="col-md-3">
@@ -27,11 +26,10 @@ class Footer extends Component {
                             <a href="mailto:info@gener8.net?Subject=Camera Question" className="footer-nav-links">info@gener8.net</a>
                         </div>
                         <div className="col-md-3">
-                            <h4 className="footer-heading">CONNECT</h4>
-                            <a href="" target="blank"><i className="fa fa-facebook" style={footerIcons}></i></a>
-                            <a href="" target="blank"><i className="fa fa-instagram" style={footerIcons}></i></a>
-                            <a href="" target="blank"><i className="fa fa-linkedin" style={footerIcons}></i></a>
-                            <a href="" target="blank"><i className="fa fa-twitter" style={footerIcons}></i></a>
+                            <h4 className="footer-heading">ORDERING</h4>
+                            <Link to="/order" className="small-order-button">Order Now</Link>
+                            <div style={{height: "15px"}}></div>
+                            <Link to="/login" className="login-button">Login</Link>
                         </div>
                         <div className="col-xs-12 legals">
                             <span className="legal-space">&copy;2018 Gener8</span>

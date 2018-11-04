@@ -9,7 +9,6 @@ const Dropdown = () => {
             <ul className="dropdown-menu">
                 <li><a href="/products/hydra" className="products-drop">Hydra</a></li>
                 <li><a href="/products/monstar" className="products-drop">Monstar</a></li>
-                <li><a href="/products/yeti" className="products-drop">Yeti</a></li>
                 <li><a href="/products/maxx" className="products-drop">Maxx</a></li>
             </ul>
         </div>

@@ -17,8 +17,18 @@ const Specs = () => {
                         <li className="spec-list">Indoor and outdoor optimized versions available</li>
                     </ul>
                 </div>
-                <div className="col-xs-12 cta-div">
-                    <Link className="contact-button" to="/order">Order Now</Link>
+            </div>
+            <div className="row">
+                <div className="row" style={{marginTop: '20px'}}>
+                    <div className="col-md-4 button-links">
+                        <a href="" target="blank" className="donwload-button">Download Data-Sheet</a>
+                    </div>
+                    <div className="col-md-4 button-links">
+                        <Link className="product-contact-button" to="/order">Order Now</Link>
+                    </div>
+                    <div className="col-md-4 button-links">
+                        <a href="" target="blank" className="donwload-button">Download Step-File</a>
+                    </div>
                 </div>
             </div>
         </div>

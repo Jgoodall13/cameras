@@ -1,5 +1,4 @@
 import React from 'react';
-import AboutHero from '../../images/about-hero.jpg';
 
 import '../../styles/about.css'
 

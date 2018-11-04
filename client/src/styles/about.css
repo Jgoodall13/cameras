@@ -1,4 +1,8 @@
 
+.about-hero{
+    padding-top: 100px;
+}
+
 .about-banner{
     background-image: url('../images/about-hero.jpg');
     height: 600px;

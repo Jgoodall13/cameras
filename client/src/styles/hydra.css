@@ -7,6 +7,11 @@
     margin-bottom: 75px
 }
 
+.hydra-title{
+    font-family: 'Italianno', cursive;
+    font-size: 65px;
+}
+
 .hydra-cta {
     color: gray;
     font-weight: 300;
@@ -15,7 +20,7 @@
 }
 
 .hydra-img{
-    height: 400px;
+    height: 300px;
     width: auto;
 }
 
@@ -24,12 +29,11 @@
 }
 
 .donwload-button {
-    margin: 50px;
     border: 2px solid gray;
     padding: 10px 25px;
     border-radius: 50px;
     color: gray;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 300;
 }
 
@@ -39,11 +43,12 @@
     color: white;
 }
 
+
+
 /************ SPECS ***************/
 
 .hydra-specs{
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     border-top: 2px solid gray;
     padding-top: 50px;
 }
@@ -57,4 +62,32 @@
 .cta-div{
     text-align: center;
     margin-top: 100px;
+}
+
+/************** BUTTONS ***************/
+
+.product-contact-button{
+    font-size: 20px;
+    background-color: #150DD6;
+    border: 1px solid #150DD6;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 236px;
+    font-weight: 300;
+}
+
+.product-contact-button:hover{
+    background-color: white;
+    color: #150DD6;
+    text-decoration: none;
+}
+
+.button-links{
+    text-align: center;
+}
+
+@media(max-width: 991px){
+    .button-links{
+        margin: 30px;
+    }
 }

@@ -47,6 +47,11 @@
     font-weight: 300;
 }
 
+.spec-ul{
+    padding: 0;
+    list-style-type: none
+}
+
 .spec-headings{
     color: gray;
     font-size: 32px;

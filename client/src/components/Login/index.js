@@ -1,13 +1,11 @@
 import React from 'react';
-import Hero from './Hero'
-import Specs from './Specs'
+import Auth from './Auth'
 
 const index = () => {
     topFunction();
     return (
         <div>
-            <Hero />
-            <Specs />
+            <Auth />
         </div>
     )
 }

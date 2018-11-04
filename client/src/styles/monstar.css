@@ -4,7 +4,11 @@
 
 .monstar-banner{
     text-align: center;
-    margin-bottom: 75px
+}
+
+.monstar-title{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 65px;
 }
 
 .monstar-cta {
@@ -15,7 +19,7 @@
 }
 
 .monstar-img{
-    height: 400px;
+    height: 300px;
     width: auto;
 }
 
@@ -24,12 +28,11 @@
 }
 
 .donwload-button {
-    margin: 50px;
     border: 2px solid gray;
     padding: 10px 25px;
     border-radius: 50px;
     color: gray;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 300;
 }
 
@@ -42,8 +45,8 @@
 /************ SPECS ***************/
 
 .monstar-specs{
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 0px;
+    margin-bottom: 50px;
     border-top: 2px solid gray;
     padding-top: 50px;
 }
