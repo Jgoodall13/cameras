@@ -16,14 +16,15 @@ class Footer extends Component {
                             <Link className="footer-nav-links" to="/products/Maxx">Maxx</Link>
                         </div>
                         <div className="col-md-3">
-                            <h4 className="footer-heading">ABOUT</h4>
-                            <Link className="footer-nav-links" to="/about">Who We Are</Link><br />
-                            <Link className="footer-nav-links" to="/faqs">FAQ's</Link>
+                            <h4 className="footer-heading">Support</h4>
+                            <Link className="footer-nav-links" to="/about">About</Link><br />
+                            <Link className="footer-nav-links" to="/faqs">FAQ</Link><br />
+                            <Link className="footer-nav-links" to="/login">Login</Link>
                         </div>
                         <div className="col-md-3">
                             <h4 className="footer-heading">CONTACT US</h4>
                             <p className="footer-nav-links">1-650-940-9898</p>
-                            <a href="mailto:info@gener8.net?Subject=Camera Question" className="footer-nav-links">info@gener8.net</a>
+                            <a href="mailto:fusionsens@gener8.net?Subject=Camera Question" className="footer-nav-links">fusionsens@gener8.net</a>
                         </div>
                         <div className="col-md-3">
                             <h4 className="footer-heading">ORDERING</h4>
@@ -32,8 +33,7 @@ class Footer extends Component {
                             <Link to="/login" className="login-button">Login</Link>
                         </div>
                         <div className="col-xs-12 legals">
-                            <span className="legal-space">&copy;2018 Gener8</span>
-                            <a href="" target="blank" className="legal-space">Terms of Sale</a>
+                            <span className="legal-space">&copy;Gener8, LLC</span>
                             <a href="" target="blank" className="legal-space">Privacy Policy</a>
                         </div>
                     </div>

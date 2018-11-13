@@ -11,7 +11,6 @@ const index = () => {
         <div>
             <Carousel />
             <SenseBox />
-            <Specs />
         </div>
     )
 }

@@ -9,7 +9,7 @@ const Hero = () => {
             </div>
             <div className="about-info">
                 <h2 className="about-title">About Us</h2>
-                <p className="about-paragraph">The FusionSens line of cameras were developed by Gener8 <a href="http://www.gener8.net" target="blank">www.gener8.net</a> using technology developed by <a href="https://www.infineon.com/cms/en/product/sensor/3d-image-sensor-real3/" target="blank">Infineon</a> and pmd technologies <a href="https://pmdtec.com" target="blank">pmdtec.com</a></p>
+                <p className="about-paragraph">The FusionSens line of cameras were developed by <a href="http://www.gener8.net" target="blank">Gener8</a> using technology developed by <a href="https://www.infineon.com/cms/en/product/sensor/3d-image-sensor-real3/" target="blank">Infineon</a> and pmd technologies <a href="https://pmdtec.com" target="blank">pmdtec.com</a></p>
             </div>
         </div>
     )

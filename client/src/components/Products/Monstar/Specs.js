@@ -6,7 +6,7 @@ const Specs = () => {
         <div className="container monstar-specs">
             <div className="row">
                 <div className="col-md-4">
-                    <h3 style={{fontSize: '40px', color: "#696969", marginTop: '0'}}>Product Highlights</h3>
+                    <h3 style={{fontSize: '40px', color: "#696969", marginTop: '0', fontFamily: 'Quicksand'}}>Product Highlights</h3>
                 </div>
                 <div className="col-md-8">
                     <ul>

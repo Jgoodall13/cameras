@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Dropdown from './Dropdown';
+import Support from './Support';
 import Hamburger from './Hamburger';
 
 import Logo from '../../images/logo.png'
@@ -26,8 +27,7 @@ class Header extends Component{
                         <div className="col-md-9">
                             <nav className='header-nav'>
                                 <span id="product-drop" className="nav-links"><Dropdown /></span>
-                                <Link className="nav-links" to="/about">About</Link>
-                                <Link className="nav-links" to="/faqs">FAQ</Link>
+                                <span id="product-drop-two" className="nav-links"><Support /></span>
                                 <Link className="contact-button" to="/order">Order Now</Link>
                             </nav>
                         </div>

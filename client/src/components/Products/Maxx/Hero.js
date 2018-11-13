@@ -8,9 +8,7 @@ const Hero = () => {
         <div className="container maxx-hero">
             <div className="maxx-banner row">
                 <div className="col-md-6">
-                    <Slide left>
                         <h2 className="maxx-title">Maxx</h2>
-                    </Slide>
                     <p className="maxx-cta">The FusionSens Maxx is a compact time of flight camera optimized for edge industrial, AR/VR, and robotic applications.</p>
                 </div>
                 <div className="col-md-6">
