@@ -1,13 +1,35 @@
-import React from 'react';
-import Auth from './Auth'
+import React, { Component } from 'react';
+import fire from '../../config/Fire';
+import Auth from './Auth';
+import LoggedIn from './LoggedIn';
 
-const index = () => {
-    topFunction();
-    return (
-        <div>
-            <Auth />
-        </div>
-    )
+class index extends Component {
+    state = {
+        user:{},
+    }
+
+    componentDidMount(){
+        this.authListener();
+    }
+
+    authListener = () => {
+        fire.auth().onAuthStateChanged((user) => {
+            if(user){
+                console.log(user)
+                this.setState({ user })
+            } else {
+                this.setState({ user: null});
+            }
+        })
+    }
+
+    render(){
+        return (
+            <div>
+                {this.state.user ? (<LoggedIn />) : (<Auth />)}
+            </div>
+        )
+    }
 }
 
 function topFunction() {
