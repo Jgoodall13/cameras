@@ -8,7 +8,6 @@ class Form extends Component {
 
     state = {
         name: '',
-        company: '',
         email: '',
         phone: '',
         quantity: '',
@@ -57,10 +56,13 @@ class Form extends Component {
         e.preventDefault();
         axios.post('/contact', {
             name: this.state.name,
-            company: this.state.company,
             email: this.state.email,
             phone: this.state.phone,
-            message: this.state.message
+            quantity: this.state.quantity,
+            message: this.state.message,
+            selectedOption: this.state.selectedOption,
+            selectedOption2: this.state.selectedOption2,
+            selectedOption3: this.state.selectedOption3
         })
         .then(function (response) {
             console.log(response);
@@ -68,7 +70,16 @@ class Form extends Component {
           .catch(function (error) {
             console.log(error);
           });
-        this.setState({name: '', company: '', email: '', phone: '', message: '', form: false})
+        this.setState({name: '',
+            email: '',
+            phone: '',
+            quantity: '',
+            message: '',
+            selectedOption: '',
+            selectedOption2: '',
+            selectedOption3: '',
+            form: false
+        })
     }
     render(){
 
@@ -79,9 +90,9 @@ class Form extends Component {
           ];
 
           const options2 = [
-            {value: '100', label: '100x85'},
-            {value: '80', label: '80x60'},
-            {value: '60', label: '60x45'}
+            {value: '100x85', label: '100x85'},
+            {value: '80x60', label: '80x60'},
+            {value: '60x45', label: '60x45'}
           ];
 
           const options3 = [

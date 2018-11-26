@@ -43,12 +43,4 @@ class Footer extends Component {
     }
 }
 
-//This is the font awesome only being able to take on one css so inline are necessary
-
-const footerIcons = {
-    color: "white",
-    fontSize: "2.2em",
-    marginRight: '10px'
-}
-
 export default Footer;

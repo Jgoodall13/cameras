@@ -1,6 +1,5 @@
 import React from 'react';
 import HydraImg from '../../../images/Hydra.png'
-import Slide from 'react-reveal/Slide';
 import '../../../styles/hydra.css'
 
 const Hero = () => {

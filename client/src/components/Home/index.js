@@ -1,7 +1,6 @@
 import React from 'react';
 import Carousel from './Carousel';
 import SenseBox from './SenseBox';
-import Specs from './Sepcs'
 
 
 

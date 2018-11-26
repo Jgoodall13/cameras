@@ -1,7 +1,9 @@
 import React from 'react';
 import Hero from '../../images/hero_placeholder.png'
 import HeroOne from '../../images/Main_Hero_1.jpg';
-import HeroTwo from '../../images/Main_Hero_2.jpg'
+import HeroTwo from '../../images/Main_Hero_2.jpg';
+import HeroThree from '../../images/Main_Hero_3.jpg';
+import HeroFour from '../../images/Main_Hero_4.jpg';
 
 const Carousel = () => {
     return (
@@ -21,10 +23,10 @@ const Carousel = () => {
                     <img src={HeroTwo} alt="hero-one" />
                 </div>                
                 <div className="item">
-                    <img src={Hero} alt="hero-one" />
+                    <img src={HeroThree} alt="hero-one" />
                 </div>
                 <div className="item">
-                    <img src={Hero} alt="hero-one" />
+                    <img src={HeroFour} alt="hero-one" />
                 </div>
                 </div>
                 <a className="left carousel-control" href="#myCarousel" data-slide="prev">

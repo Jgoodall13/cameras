@@ -53,10 +53,4 @@ const Questions = () => {
     )
 }
 
-const styles = {
-    trigger: {
-        color: 'blue'
-    }
-}
-
 export default Questions;

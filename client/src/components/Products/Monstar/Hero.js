@@ -1,6 +1,5 @@
 import React from 'react';
 import MonstarImg from '../../../images/Monstar.png'
-import Slide from 'react-reveal/Slide';
 import '../../../styles/monstar.css'
 
 const Hero = () => {

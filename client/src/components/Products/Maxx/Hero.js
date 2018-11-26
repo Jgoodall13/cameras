@@ -1,6 +1,5 @@
 import React from 'react';
 import MaxxImg from '../../../images/Maxx.png'
-import Slide from 'react-reveal/Slide';
 import '../../../styles/maxx.css'
 
 const Hero = () => {

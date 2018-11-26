@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import '../../styles/perms.css'
 
@@ -7,9 +8,9 @@ const Support = () => {
         <div className="dropdown">
             <button className="dropdown-toggle" type="button" data-toggle="dropdown" style={button}>Support <span className="caret"></span></button>
             <ul className="dropdown-menu">
-                <li><a href="/about" className="products-drop">About</a></li>
-                <li><a href="/faqs" className="products-drop">FAQ</a></li>
-                <li><a href="/login" className="products-drop">Login</a></li>
+                <li><Link to="/about" className="products-drop">About</Link></li>
+                <li><Link to="/faqs" className="products-drop">FAQ</Link></li>
+                <li><Link to="/login" className="products-drop">Login</Link></li>
             </ul>
         </div>
     )

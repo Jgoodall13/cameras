@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Manuel from '../../../images/HydraManuel.pdf';
+import Step from '../../../images/step/Hydra.STEP';
 
 const Specs = () => {
     return (
@@ -24,13 +26,13 @@ const Specs = () => {
             </div>
                 <div className="row" style={{marginTop: '20px'}}>
                     <div className="col-md-4 button-links">
-                        <a href="" target="blank" className="donwload-button">Download Data-Sheet</a>
+                        <a href={Manuel} target="blank" className="donwload-button">Download Data-Sheet</a>
                     </div>
                     <div className="col-md-4 button-links">
                         <Link className="product-contact-button" to="/order">Order Now</Link>
                     </div>
                     <div className="col-md-4 button-links">
-                        <a href="" target="blank" className="donwload-button">Download Step-File</a>
+                        <a href={Step} className="donwload-button" download>Download Step-File</a>
                     </div>
                 </div>
         </div>

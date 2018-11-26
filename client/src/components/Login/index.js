@@ -24,6 +24,7 @@ class index extends Component {
     }
 
     render(){
+        topFunction();
         return (
             <div>
                 {this.state.user ? (<LoggedIn />) : (<Auth />)}
