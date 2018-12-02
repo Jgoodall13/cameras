@@ -10,6 +10,7 @@ import Faqs from '../Faqs'
 import Order from '../Order'
 import Login from '../Login';
 import Error from './Error'
+import Policy from './Policy';
 
 
 const Main = () => (
@@ -23,6 +24,7 @@ const Main = () => (
       <Route path='/faqs' component={Faqs} />
       <Route path='/order' component={Order} />
       <Route path='/login' component={Login} />
+      <Route path='/policy' component={Policy} />
       <Route exact path='/' component={Home}/>
       <Route component={Error} />
     </Switch>

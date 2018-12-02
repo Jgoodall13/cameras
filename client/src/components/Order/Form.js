@@ -103,14 +103,14 @@ class Form extends Component {
         return (
             <div className="form-div container">
             {this.state.form === false
-                        ? <div className="col-md-7">
+                        ? <div className="col-md-12">
                             <div className="confirm-box">
                                 <h4 className="confirm-title">Thank you for contacting us!</h4>
                                 <p className="confirm-p">We will contact you within one business day. We look forward to speaking with you then.</p>
                             </div>
                           </div>
                         :
-                <div className="col-md-8">
+                <div className="col-md-12">
                         <form onSubmit={this.handleSubmit} className="contact-form row">
                             <div className="col-xs-12 col-md-6 contact-inputs-box">
                                 <input className="contact-inputs" type='text' name="name" placeholder="Name*" required value={this.state.name} onChange={this.handleChange} />
@@ -125,7 +125,7 @@ class Form extends Component {
                                 <input className="contact-inputs" type='text' name="quantity" placeholder="Quantity" value={this.state.quantity} onChange={this.handleChange} />
                             </div>  
                             <div className="col-xs-12 contact-inputs-box">
-                                <textarea className="contact-inputs text-area-contact" type='text' name="message" required placeholder="Message*" value={this.state.message} onChange={this.handleChange} />
+                                <textarea className="contact-inputs text-area-contact" type='text' name="message" placeholder="Message" value={this.state.message} onChange={this.handleChange} />
                             </div>
                             <div className="col-xs-12 contact-inputs-box">
                             <p>Model</p>

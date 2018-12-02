@@ -34,7 +34,7 @@ class Footer extends Component {
                         </div>
                         <div className="col-xs-12 legals">
                             <span className="legal-space">&copy;Gener8, LLC</span>
-                            <a href="" target="blank" className="legal-space">Privacy Policy</a>
+                            <Link to="/policy" className="legal-space">Privacy Policy</Link>
                         </div>
                     </div>
                 </div>
