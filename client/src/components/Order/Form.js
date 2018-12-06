@@ -41,6 +41,8 @@ class Form extends Component {
     }
 
     handleChange1 = (selectedOption) => {
+        this.setState({selectedOption2: ''});
+        this.setState({selectedOption3: ''});
         this.setState({selectedOption: selectedOption.value});
       };
 
@@ -95,10 +97,18 @@ class Form extends Component {
             {value: '60x45', label: '60x45'}
           ];
 
+          const options22 = [
+            {value: '100x85', label: '100x85'}
+        ]
+
           const options3 = [
             {value: 'indoor', label: 'Indoor use'},
             {value: 'outdoor', label: 'Outdoor use'}
           ];
+
+          const options33 = [
+            {value: 'outdoor', label: 'Outdoor use'}
+        ]
     
         return (
             <div className="form-div container">
@@ -142,7 +152,7 @@ class Form extends Component {
                                 name="form-field-name"
                                 value={this.state.selectedOption2.value}
                                 onChange={this.handleChange2}
-                                options={options2}
+                                options={this.state.selectedOption == "hydra" ? options22 : options2}
                                 />
                             </div>
                             <div className="col-xs-12 contact-inputs-box">
@@ -151,7 +161,7 @@ class Form extends Component {
                                 name="form-field-name"
                                 value={this.state.selectedOption3.value}
                                 onChange={this.handleChange3}
-                                options={options3}
+                                options={this.state.selectedOption == "hydra" ? options33 : options3}
                                 />
                             </div>
                             <div className="col-xs-12">

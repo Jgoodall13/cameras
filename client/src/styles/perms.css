@@ -3,7 +3,7 @@
 .headers-div{
     box-shadow: 5px 5px 20px #888888;
     position: fixed;
-    z-index: 5;
+    z-index: 99;
     width: 100%;
     background: white;
 }
