@@ -62,6 +62,11 @@ a.mobile-link {
     font-weight: 300;
 }
 
+.contact-button:focus{
+    text-decoration: none;
+    color: white;
+}
+
 .contact-button:hover{
     background-color: white;
     color: #150DD6;
