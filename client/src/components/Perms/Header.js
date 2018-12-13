@@ -22,7 +22,7 @@ class Header extends Component{
                 <div className="container header-desktop">
                     <div className="row">
                         <div className="col-md-3">
-                            <Link to="/"><img src={Logo} style={{height: '100px', width: '100px'}} alt="main-logo" /></Link>
+                            <Link to="/"><img src={Logo} style={{height: '90px', width: '90px', paddingTop: '10px'}} alt="main-logo" /></Link>
                         </div>
                         <div className="col-md-9">
                             <nav className='header-nav'>
