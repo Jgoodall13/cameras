@@ -11,7 +11,7 @@ exports.contactEmail = (name, email, phone, quantity, message, option1, option2,
     });
     var mailOptions = {
       from: 'fusionsens@gener8.net',
-      to: 'jraygoodall@gmail.com', //jakesclients@gmail.com
+      to: 'fusionsens@gener8.net', //jakesclients@gmail.com
       subject: `You have a new contact request from ${email}`,
       html: `<h4>name:</h4> ${name} <h4>email:</h4> ${email} <h4>phone:</h4> ${phone} <h4>quantity:</h4> ${quantity} <h4>message:</h4> ${message} <h4>Option 1:</h4> ${option1} <h4>Option 2:</h4> ${option2} <h4>Option 3:</h4> ${option3}`,
     };
