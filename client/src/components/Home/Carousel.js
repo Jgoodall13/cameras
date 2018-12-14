@@ -8,7 +8,7 @@ import HeroFour from '../../images/Main_Hero_4.jpg';
 const Carousel = () => {
     return (
         <div className="container-fluid full-carousel">
-            <div id="myCarousel" className="carousel slide" data-ride="carousel">
+            <div id="myCarousel" className="carousel slide" data-ride="carousel" data-interval="6000">
                 <ol className="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" className="active"></li>
                 <li data-target="#myCarousel" data-slide-to="1"></li>

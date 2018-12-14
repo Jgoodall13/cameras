@@ -8,7 +8,7 @@ const Hero = () => {
             <div className="hydra-banner row">
                 <div className="col-md-6">
                         <h2 className="hydra-title">Hydra</h2>
-                    <p className="hydra-cta">The FusionSens Hydra is an enhanced performance smart Time of Flight camera optimized for use in automotive and industrial environments. It offers best in class performance for performance, range and robustness.</p>
+                    <p className="hydra-cta">FusionSens Hydra is optimized for automotive and industrial environments and streams point cloud data over Ethernet for seamless integration into your software environment.  Best-in-class performance, range and robustness.</p>
                 </div>
                 <div className="col-md-6">
                     <img src={HydraImg} alt="hydra" className="hydra-img" />

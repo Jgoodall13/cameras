@@ -12,14 +12,14 @@ const Specs = () => {
                 </div>
                 <div className="col-md-8">
                     <ul>
-                        <li className="spec-list">Optimized for outdoor direct sunlight performance</li>
-                        <li className="spec-list">Gigabit Ethernet data output</li>
-                        <li className="spec-list"> The Hydra is a Smart Camera outputs provides point cloud data</li>
-                        <li className="spec-list">Up to 10 m range</li>
-                        <li className="spec-list">Up to 30 fps</li>
-                        <li className="spec-list">100 kpixel resolution</li>
-                        <li className="spec-list">100 x 85 deg Field of View</li>
-                        <li className="spec-list">-40 to 105 C operating temperature</li>
+                        <li className="spec-list">Optimized for indoor and outdoor, direct sunlight use</li>
+                        <li className="spec-list">Gigabit Ethernet</li>
+                        <li className="spec-list">Onboard processing delivers point cloud data directly</li>
+                        <li className="spec-list">Range up to 10m</li>
+                        <li className="spec-list">Frame rate up to 30fps</li>
+                        <li className="spec-list">High-resolution 100 kpixel sensor</li>
+                        <li className="spec-list">Wide 100 x 85deg field of view</li>
+                        <li className="spec-list">-40 to 105degC operating range</li>
                         <li className="spec-list">IP67 Enclosure</li>
                     </ul>
                 </div>

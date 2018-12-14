@@ -28,7 +28,7 @@ class Header extends Component{
                             <nav className='header-nav'>
                                 <span id="product-drop" className="nav-links"><Dropdown /></span>
                                 <span id="product-drop-two" className="nav-links"><Support /></span>
-                                <Link className="contact-button" to="/order">Order Now</Link>
+                                <a className="contact-button" href="/order">Order Now</a>
                             </nav>
                         </div>
                     </div>

@@ -28,7 +28,7 @@ class Footer extends Component {
                         </div>
                         <div className="col-md-3">
                             <h4 className="footer-heading">ORDERING</h4>
-                            <Link to="/order" className="small-order-button">Order Now</Link>
+                            <a href="/order" className="small-order-button">Order Now</a>
                             <div style={{height: "15px"}}></div>
                             <Link to="/login" className="login-button">Login</Link>
                         </div>

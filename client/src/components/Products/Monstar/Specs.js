@@ -12,12 +12,12 @@ const Specs = () => {
                 </div>
                 <div className="col-md-8">
                     <ul>
-                        <li className="spec-list">100 kpixel resolution</li>
-                        <li className="spec-list">6 m range</li>
-                        <li className="spec-list">USB 3.0 powered</li>
-                        <li className="spec-list">Expansion port with MIPI and parallel interface</li>
-                        <li className="spec-list">100° x 85°, 80° x 60°, and 60° x 45° Field of View Options</li>
-                        <li className="spec-list">Indoor and outdoor optimized versions available</li>
+                        <li className="spec-list">Range up to 6m</li>
+                        <li className="spec-list">Power and communication over USB 3.0</li>
+                        <li className="spec-list">High-resolution 100 kpixel sensor</li>
+                        <li className="spec-list">Expansion port with MIPI and parallel interfaces</li>
+                        <li className="spec-list">Three Fields of View: 100° x 85°, 80° x 60° or 60° x 45°</li>
+                        <li className="spec-list">Available optimized for indoor or outdoor use</li>
                     </ul>
                 </div>
             </div>

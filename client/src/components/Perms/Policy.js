@@ -10,7 +10,7 @@ const Policy = () => {
 <p>Effective date: December 02, 2018</p>
 
 
-<p>FusionSens ("us", "we", or "our") operates the https://fusionsens.herokuapp.com/ website (the "Service").</p>
+<p>Gener8 ("us", "we", or "our") operates the https://fusionsens.com/ website (the "Service").</p>
 
 <p>This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data.</p>
 
